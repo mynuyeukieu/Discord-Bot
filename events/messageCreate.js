@@ -8,7 +8,6 @@ const { clientname } = require("../botconfig/main.json");
 const prefix = client.config.prefix;
 const { randomMessages_Cooldown } = require("../botconfig/main.json");
 client.on("messageCreate", async (message) => {
-
     if (
         message.author.bot ||
         !message.guild ||
